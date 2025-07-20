@@ -1,0 +1,525 @@
+[
+    {
+        "title": "Men's Classic Slim Fit Blue Denim Jeans",
+        "imageUrl": "https://static.zara.net/assets/public/2e48/c856/9e7f40f1a185/174ef173e432/08062410406-a3/08062410406-a3.jpg?ts=1741276877597&w=682",
+        "rating": 4.4,
+        "price": 2299,
+        "discountOffered": 15,
+        "availableSizes": [
+            "30",
+            "32",
+            "34",
+            "36"
+        ],
+        "description": [
+            "Durable stretchable denim",
+            "Five-pocket design",
+            "Tapered slim fit"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Men's Cotton Graphic T-Shirt",
+        "imageUrl": "https://images.unsplash.com/photo-1585386959984-a4155228f982?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.2,
+        "price": 899,
+        "discountOffered": 10,
+        "availableSizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "description": [
+            "Soft breathable cotton",
+            "Crew neck and regular fit",
+            "Modern graphic design"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's Floral Printed Maxi Dress",
+        "imageUrl": "https://images.unsplash.com/photo-1520975681322-7f4f7aebd93c?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "price": 2499,
+        "discountOffered": 20,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Elegant floral design",
+            "Lightweight fabric",
+            "Full length for formal wear"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Women's Zip-Up Fleece Hoodie",
+        "imageUrl": "https://images.unsplash.com/photo-1599944381456-247b5313fcb8?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.7,
+        "price": 2699,
+        "discountOffered": 25,
+        "availableSizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "description": [
+            "Cozy fleece material",
+            "Front pockets",
+            "Adjustable drawstring hood"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Kids' Lightweight Windbreaker Jacket",
+        "imageUrl": "https://images.unsplash.com/photo-1542060748-10c28b62716f?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.6,
+        "price": 1799,
+        "discountOffered": 30,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Water-resistant",
+            "Zipper front with hood",
+            "Ideal for outdoor play"
+        ],
+        "category": "Kids"
+    },
+    {
+        "title": "Men's Formal Button-Up Shirt",
+        "imageUrl": "https://images.unsplash.com/photo-1581515095191-bd9c5aa2ecf2?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.3,
+        "price": 1499,
+        "discountOffered": 20,
+        "availableSizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "description": [
+            "Poly-cotton blend",
+            "Perfect for office wear",
+            "Slim-fit with full sleeves"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's High-Waist Workout Leggings",
+        "imageUrl": "https://images.unsplash.com/photo-1600185365528-9f1bd3e5d7c2?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.8,
+        "price": 1599,
+        "discountOffered": 15,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Stretchable performance fabric",
+            "Moisture-wicking technology",
+            "Ideal for gym and yoga"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Kids' Cartoon Print T-Shirt",
+        "imageUrl": "https://images.unsplash.com/photo-1621440311100-e1b166d8f44f?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.4,
+        "price": 599,
+        "discountOffered": 10,
+        "availableSizes": [
+            "XS",
+            "S",
+            "M"
+        ],
+        "description": [
+            "Colorful cartoon print",
+            "Soft cotton material",
+            "Crew neck short sleeve"
+        ],
+        "category": "Kids"
+    },
+    {
+        "title": "Men's Casual Chino Shorts",
+        "imageUrl": "https://images.unsplash.com/photo-1603251581745-b018c87c271e?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.1,
+        "price": 1299,
+        "discountOffered": 5,
+        "availableSizes": [
+            "30",
+            "32",
+            "34"
+        ],
+        "description": [
+            "Light cotton fabric",
+            "Above-knee length",
+            "Relaxed fit with side pockets"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's Oversized Cotton T-Shirt Dress",
+        "imageUrl": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.6,
+        "price": 1799,
+        "discountOffered": 20,
+        "availableSizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "description": [
+            "Relaxed fit T-shirt dress",
+            "100% organic cotton",
+            "Casual yet stylish"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Kids' Full Sleeve Nightwear Pajama Set",
+        "imageUrl": "https://images.unsplash.com/photo-1619692211553-47c8efb862eb?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "price": 1299,
+        "discountOffered": 15,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Soft cotton for a good night's sleep",
+            "Fun colorful patterns",
+            "Elastic waistband for comfort"
+        ],
+        "category": "Kids"
+    },
+    {
+        "title": "Men's Hooded Winter Jacket",
+        "imageUrl": "https://images.unsplash.com/photo-1602810313650-66141f858af8?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.7,
+        "price": 3599,
+        "discountOffered": 35,
+        "availableSizes": [
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "description": [
+            "Thick insulation for cold climates",
+            "Zip front with hoodie",
+            "Multiple outer and inner pockets"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's Embroidered Ethnic Kurta",
+        "imageUrl": "https://images.unsplash.com/photo-1583267745300-7fbc8704fe7d?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.3,
+        "price": 1999,
+        "discountOffered": 18,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Intricate thread embroidery",
+            "Ankle length with slits",
+            "Perfect for festive occasions"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Kids' Hooded Puffer Vest",
+        "imageUrl": "https://images.unsplash.com/photo-1610223175298-03266c0c1323?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.6,
+        "price": 1499,
+        "discountOffered": 10,
+        "availableSizes": [
+            "S",
+            "M"
+        ],
+        "description": [
+            "Warm yet lightweight",
+            "Front zipper with padded finish",
+            "Great for layering in winter"
+        ],
+        "category": "Kids"
+    },
+    {
+        "title": "Men's Everyday Round Neck Sweatshirt",
+        "imageUrl": "https://images.unsplash.com/photo-1622447036017-431a674a6b2a?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "price": 1599,
+        "discountOffered": 12,
+        "availableSizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "description": [
+            "Brushed fleece interior",
+            "Ribbed cuffs and hem",
+            "Simple and stylish"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's Lightweight Linen Trousers",
+        "imageUrl": "https://images.unsplash.com/photo-1621751407597-bb6d35b3e3c4?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.4,
+        "price": 2099,
+        "discountOffered": 22,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Breathable linen fabric",
+            "Elasticated waistband",
+            "Perfect for summer days"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Kids' Stretchable Jogger Pants",
+        "imageUrl": "https://images.unsplash.com/photo-1564662042733-68c3b3c5e9a3?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.3,
+        "price": 999,
+        "discountOffered": 8,
+        "availableSizes": [
+            "XS",
+            "S",
+            "M"
+        ],
+        "description": [
+            "Drawstring closure",
+            "Tapered ankle fit",
+            "Stretchy fabric for playtime comfort"
+        ],
+        "category": "Kids"
+    },
+    {
+        "title": "Men's Classic Polo T-Shirt",
+        "imageUrl": "https://images.unsplash.com/photo-1618354691437-bd944fdaa78c?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.6,
+        "price": 1399,
+        "discountOffered": 10,
+        "availableSizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "description": [
+            "Cotton pique fabric",
+            "Short sleeve with ribbed collar",
+            "Casual yet polished look"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's Tie-Up Waist Shirt Dress",
+        "imageUrl": "https://images.unsplash.com/photo-1520976047203-57c42d8121d4?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.7,
+        "price": 2199,
+        "discountOffered": 15,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Belted waist for structured shape",
+            "Button-down front",
+            "Elegant everyday wear"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Men's Full Sleeve Henley Shirt",
+        "imageUrl": "https://images.unsplash.com/photo-1520975918108-6e0d99cbb8f7?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.3,
+        "price": 1199,
+        "discountOffered": 10,
+        "availableSizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "description": [
+            "Cotton blend",
+            "Buttoned neckline",
+            "Slim fit"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's Puff Sleeve Midi Dress",
+        "imageUrl": "https://images.unsplash.com/photo-1621525272238-e00e7a3f61c5?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "price": 2499,
+        "discountOffered": 20,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Flowy fabric",
+            "Elastic waist",
+            "Chic puff sleeves"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Kids' Graphic Hoodie",
+        "imageUrl": "https://images.unsplash.com/photo-1576435728678-62bdee9f7c78?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.4,
+        "price": 1399,
+        "discountOffered": 18,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Bold prints",
+            "Cozy fleece lining",
+            "Front pouch pocket"
+        ],
+        "category": "Kids"
+    },
+    {
+        "title": "Men's Checked Casual Shirt",
+        "imageUrl": "https://images.unsplash.com/photo-1600803907084-c7d99eeb2009?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.2,
+        "price": 1499,
+        "discountOffered": 12,
+        "availableSizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "description": [
+            "Brushed cotton",
+            "Button-down",
+            "Casual fit"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's Cropped Denim Jacket",
+        "imageUrl": "https://images.unsplash.com/photo-1618354690371-38f9d0647455?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.6,
+        "price": 2299,
+        "discountOffered": 25,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Distressed look",
+            "Cropped length",
+            "Metal buttons"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Kids' Printed Shorts Set",
+        "imageUrl": "https://images.unsplash.com/photo-1598300054752-3ddf7b1fdba4?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "price": 1099,
+        "discountOffered": 10,
+        "availableSizes": [
+            "XS",
+            "S",
+            "M"
+        ],
+        "description": [
+            "Cotton T-shirt & shorts",
+            "Playful prints",
+            "Elastic waistband"
+        ],
+        "category": "Kids"
+    },
+    {
+        "title": "Men's Cotton Cargo Pants",
+        "imageUrl": "https://images.unsplash.com/photo-1621831907590-7cbf269b82d0?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.4,
+        "price": 1999,
+        "discountOffered": 18,
+        "availableSizes": [
+            "32",
+            "34",
+            "36"
+        ],
+        "description": [
+            "Utility pockets",
+            "Comfort fit",
+            "Durable fabric"
+        ],
+        "category": "Men"
+    },
+    {
+        "title": "Women's Sleeveless Summer Top",
+        "imageUrl": "https://images.unsplash.com/photo-1531931451481-75427fd1de7f?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.3,
+        "price": 999,
+        "discountOffered": 15,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Breathable rayon",
+            "Scoop neck",
+            "Bright solid color"
+        ],
+        "category": "Women"
+    },
+    {
+        "title": "Kids' Denim Dungarees",
+        "imageUrl": "https://images.unsplash.com/photo-1585552181824-baccd389fa9e?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.5,
+        "price": 1499,
+        "discountOffered": 20,
+        "availableSizes": [
+            "S",
+            "M"
+        ],
+        "description": [
+            "Adjustable straps",
+            "Side pockets",
+            "Durable denim"
+        ],
+        "category": "Kids"
+    },
+    {
+        "title": "Women's Printed Casual Skirt",
+        "imageUrl": "https://images.unsplash.com/photo-1608451621922-7890d43d4c86?auto=format&fit=crop&w=800&q=80",
+        "rating": 4.4,
+        "price": 1399,
+        "discountOffered": 10,
+        "availableSizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "description": [
+            "Soft fabric",
+            "Above-knee length",
+            "Elastic waist"
+        ],
+        "category": "Women"
+    }
+]
