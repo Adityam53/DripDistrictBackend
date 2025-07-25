@@ -101,6 +101,39 @@ app.get("/clothes/:id", async (req, res) => {
   }
 });
 
+const readClothesByCategory = async (clothCategory) => {
+  try {
+    const category = await Category.findOne({ name: clothCategory });
+    if (!category) {
+      console.log("No category found");
+      return [];
+    }
+    const clothes = await Clothing.find({ category: category._id }).populate(
+      "category"
+    );
+    return clothes;
+  } catch (error) {
+    throw error;
+  }
+};
+
+app.get("/clothes/category/:categoryname", async (req, res) => {
+  try {
+    const clothesByCategory = await readClothesByCategory(
+      req.params.categoryname
+    );
+    if (clothesByCategory.length > 0) {
+      res.json(clothesByCategory);
+    } else {
+      res.status(404).json({ error: "Category not found" });
+    }
+  } catch (error) {
+    console.error("Failed to fetch data", error);
+    res
+      .status(500)
+      .json({ error: "An error occured while fetching clothes by category" });
+  }
+});
 const readAllCategories = async () => {
   try {
     const allCategories = await Category.find({});
