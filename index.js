@@ -2,9 +2,12 @@ const { initializeDatabase } = require("./db/db.connect");
 require("dotenv").config();
 const Clothing = require("./models/clothing.models");
 const Category = require("./models/category.models");
+const Address = require("./models/address.models");
 const clothes = require("./clothes.json");
 const express = require("express");
 const cors = require("cors");
+const { createReadStream } = require("fs");
+const { log } = require("console");
 
 const corsOptions = {
   origin: "*",
@@ -180,6 +183,26 @@ app.get("/categories/:id", async (req, res) => {
   }
 });
 
+const createAddress = async (newAddress) => {
+  try {
+    const address = new Address(newAddress);
+    const savedAddress = await address.save();
+    return savedAddress;
+  } catch (error) {
+    throw error;
+  }
+};
+
+app.post("/address", async (req, res) => {
+  try {
+    const savedAddress = await createAddress(req.body);
+    console.log(savedAddress);
+    res.status(201).json({ message: "Address saved successfully." });
+  } catch (error) {
+    console.log("Error in saving address", error);
+    res.status(500).json({ error: "Failed to save Address" });
+  }
+});
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("Server is running on port", PORT);
