@@ -4,6 +4,7 @@ const Clothing = require("./models/clothing.models");
 const Category = require("./models/category.models");
 const Address = require("./models/address.models");
 const clothes = require("./clothes.json");
+const orders = require("./models/orders.models");
 const express = require("express");
 const cors = require("cors");
 const { createReadStream } = require("fs");
@@ -203,6 +204,73 @@ app.post("/address", async (req, res) => {
     res.status(500).json({ error: "Failed to save Address" });
   }
 });
+
+const createOrder = async (newOrder) => {
+  try {
+    const order = new Order(newOrder);
+    const savedOrder = await order.save();
+    return savedOrder;
+  } catch (error) {
+    throw error;
+  }
+};
+
+app.post("/orders", async (req, res) => {
+  try {
+    const savedOrder = await createOrder(req.body);
+    res.status(201).json(savedOrder);
+  } catch (error) {
+    console.error("Error saving order:", error);
+    res.status(500).json({ error: "Failed to save order" });
+  }
+});
+
+const readAllOrders = async () => {
+  try {
+    const orders = await Order.find().populate("items.product");
+    return orders;
+  } catch (error) {
+    throw error;
+  }
+};
+
+app.get("/orders", async (req, res) => {
+  try {
+    const orders = await readAllOrders();
+    if (orders.length > 0) {
+      res.json(orders);
+    } else {
+      res.status(404).json({ error: "No orders found" });
+    }
+  } catch (error) {
+    console.error("Error fetching orders:", error);
+    res.status(500).json({ error: "Failed to fetch orders" });
+  }
+});
+
+const readOrderById = async (orderId) => {
+  try {
+    const order = await Order.findById(orderId).populate("items.product");
+    return order;
+  } catch (error) {
+    throw error;
+  }
+};
+
+app.get("/orders/:id", async (req, res) => {
+  try {
+    const order = await readOrderById(req.params.id);
+    if (order) {
+      res.json(order);
+    } else {
+      res.status(404).json({ error: "Order not found" });
+    }
+  } catch (error) {
+    console.error("Error fetching order by ID:", error);
+    res.status(500).json({ error: "Failed to fetch order by ID" });
+  }
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("Server is running on port", PORT);
