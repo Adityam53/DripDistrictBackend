@@ -4,7 +4,7 @@ const Clothing = require("./models/clothing.models");
 const Category = require("./models/category.models");
 const Address = require("./models/address.models");
 const clothes = require("./clothes.json");
-const orders = require("./models/orders.models");
+const Orders = require("./models/orders.models");
 const express = require("express");
 const cors = require("cors");
 const { createReadStream } = require("fs");
@@ -207,7 +207,7 @@ app.post("/address", async (req, res) => {
 
 const createOrder = async (newOrder) => {
   try {
-    const order = new Order(newOrder);
+    const order = new Orders(newOrder);
     const savedOrder = await order.save();
     return savedOrder;
   } catch (error) {
@@ -227,7 +227,7 @@ app.post("/orders", async (req, res) => {
 
 const readAllOrders = async () => {
   try {
-    const orders = await Order.find().populate("items.product");
+    const orders = await Orders.find().populate("items.product");
     return orders;
   } catch (error) {
     throw error;
@@ -250,7 +250,7 @@ app.get("/orders", async (req, res) => {
 
 const readOrderById = async (orderId) => {
   try {
-    const order = await Order.findById(orderId).populate("items.product");
+    const order = await Orders.findById(orderId).populate("items.product");
     return order;
   } catch (error) {
     throw error;
